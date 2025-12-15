@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Streamline your cricket tournament with our digital auction software. Live bidding, team budget management, real-time leaderboards, and automated rule validation. Perfect for cricket leagues, academies, and tournaments.",
   keywords:
     "cricket auction software, player auction platform, cricket tournament software, digital cricket auction, live bidding system, cricket league management",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Cricket Auction Software | Digital Player Auction Platform",
     description:
