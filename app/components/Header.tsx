@@ -63,11 +63,23 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button variant="outline" size="sm">
-              Login
+            <Button variant="outline" size="sm" asChild>
+              <a
+                href="https://app.goaoction.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Login
+              </a>
             </Button>
-            <Button variant="default" size="sm">
-              Get Started
+            <Button variant="default" size="sm" asChild>
+              <a
+                href="https://app.goaoction.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Started
+              </a>
             </Button>
           </div>
 
@@ -100,11 +112,23 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col gap-3 pt-4">
-                <Button variant="outline" className="w-full">
-                  Login
+                <Button variant="outline" className="w-full" asChild>
+                  <a
+                    href="https://app.goaoction.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Login
+                  </a>
                 </Button>
-                <Button variant="default" className="w-full">
-                  Get Started
+                <Button variant="default" className="w-full" asChild>
+                  <a
+                    href="https://app.goaoction.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get Started
+                  </a>
                 </Button>
               </div>
             </nav>

@@ -52,8 +52,14 @@ const Hero = () => {
                 Request Demo
                 <Play className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg">
-                Get started
+              <Button variant="outline" size="lg" asChild>
+                <a
+                  href="https://app.goaoction.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
               </Button>
             </div>
 

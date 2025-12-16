@@ -58,8 +58,14 @@ const Pricing = () => {
               </ul>
 
               {/* CTA */}
-              <Button variant="default" size="lg" className="w-full">
-                Request Pricing
+              <Button variant="default" size="lg" className="w-full" asChild>
+                <a
+                  href="https://app.goaoction.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Request Pricing
+                </a>
               </Button>
 
               <p className="text-center text-sm text-muted-foreground mt-4">

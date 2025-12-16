@@ -39,8 +39,14 @@ const FinalCTA = () => {
               Schedule a Demo
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button> */}
-            <Button variant="link" size="lg" className="bg-white text-primary">
-              Start Your Digital Auction
+            <Button variant="link" size="lg" className="bg-white text-primary" asChild>
+              <a
+                href="https://app.goaoction.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Start Your Digital Auction
+              </a>
             </Button>
           </div>
 

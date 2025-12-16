@@ -198,8 +198,15 @@ const WhyChooseUs = () => {
                 variant="default"
                 size="lg"
                 className="shadow-lg hover:shadow-xl transition-all duration-300"
+                asChild
               >
-                Switch to Smart Auctions
+                <a
+                  href="https://app.goaoction.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Switch to Smart Auctions
+                </a>
               </Button>
             </div>
           </div>
